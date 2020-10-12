@@ -1,0 +1,15 @@
+<!-- <p>dean works!</p> -->
+<table border="1">
+  <tr>
+    <th>Dean Code</th>
+    <th>Dean Name</th>
+    <th>Salary</th>
+    <th>Department</th>
+  </tr>
+  <tr *ngFor="let dean of deans">
+    <td>{{dean.code}}</td>
+    <td>{{dean.name | uppercase}}</td>
+    <td>{{dean.salary}}</td>
+    <td>{{dean.dept | uppercase}}</td>
+  </tr>
+</table>

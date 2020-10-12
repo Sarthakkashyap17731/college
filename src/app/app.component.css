@@ -1,0 +1,35 @@
+.text-info{
+  background-color: bisque;
+}
+h1.text-warning{
+  background-color: azure;
+}
+h1.text-danger{
+  background-color: aliceblue;
+}
+h1.text-success{
+  background-color: lightgoldenrodyellow;
+}
+.jumbotron{
+  background-color: darkgray;
+}
+.navbar{
+  background-color: grey;
+}
+.button:hover{
+  background-color: gold;
+}
+div.btn-group:hover{
+  background-color: gold;
+}
+div.collapes:hover{
+  background-color: gold;
+}
+p.button:hover{
+  background-color: red;
+}
+img.img-circle{
+  border: 10px;
+  border-color:red ;
+}
+

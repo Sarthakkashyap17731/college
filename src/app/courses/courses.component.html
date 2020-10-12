@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="jumbotron"><h1>Our courses</h1> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis odio aperiam reiciendis cupiditate, earum quibusdam quae ullam qui dolor alias culpa quia neque nostrum atque nulla hic voluptate, numquam mollitia.
+  </div>
+  <div class="jumbotron">
+    <h4>Enginering</h4>
+    <ul>
+      <li>CS</li>
+      <li>IT</li>
+      <li>ME</li>
+    </ul>
+    <button type="button" class="btn btn-warning"><a  (click)="setCourse('engineer')">Placement</a></button>
+    <app-engineer *ngIf="type == 'engineer'"></app-engineer>
+    <button type="button" class="btn btn-primary">Apply </button>
+  </div>
+
+
+
+
+  <div class="jumbotron">
+
+    <h4>Managment</h4>
+    <ul>
+      <li>B.com</li>
+      <li>BBA</li>
+    </ul>
+    <button type="button" class="btn btn-warning"><a [routerLink]= "['/courses/managment']">Placement</a></button>
+    <router-outlet></router-outlet>
+    <button type="button" class="btn btn-primary">Apply </button>
+  </div>
+</div>

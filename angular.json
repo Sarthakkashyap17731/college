@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "bootstarp"
+    }
+  },
+  "defaultProject": "bootstarp",
+  "cli": {
+    "analytics": "c14e1868-3c6e-427c-be4b-813c5a2982c1"
+  }
 }
